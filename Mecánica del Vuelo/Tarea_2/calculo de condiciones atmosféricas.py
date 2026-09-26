@@ -45,13 +45,15 @@ def condición_atmosferica(z,delta_temp=0, capas=capas_atmosfericas):
 # Z=altura_geopotencial(13000)
 # print(Z)
 a=condición_atmosferica(52000,delta_temp=0, capas=capas_atmosfericas)
-temp=[]
-height=[]
-for i in [i for i in range(52000)]:
-    temp.append(condición_atmosferica(i)[0])
-    height.append(i)
-print(temp)
-plt.plot(temp,height)
-plt.show()
+
+
+# temp=[]
+# height=[]
+# for i in [i for i in range(52000)]:
+#     temp.append(condición_atmosferica(i)[0])
+#     height.append(i)
+# print(temp)
+# plt.plot(temp,height)
+# plt.show()
 
 
